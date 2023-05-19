@@ -1,0 +1,32 @@
+.place-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    max-width: 1200px;
+  }
+  
+  .place {
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .place img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .place h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .place p {
+    font-size: 1.5rem;
+    color: black;
+  }
+  

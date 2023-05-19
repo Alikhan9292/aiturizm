@@ -1,0 +1,22 @@
+.openai-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+  }
+  
+  .openai-button {
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .openai-images {
+    margin-top: 50px;
+  }
+  
+  .openai-images img {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,45 @@
+.about-container {
+    position: relative;
+    padding: 10%;
+    text-align: center;
+  }
+  
+  .about-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url('https://pbs.twimg.com/media/Dj_oU-gW0AAyJpk.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+  }
+  
+  h1, p {
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 2.5rem;
+  }
+  
+  button {
+    background-color: #4CAF50; /* зеленый цвет фона */
+    color: white; /* белый цвет текста */
+    border: none; /* удалить границу */
+    padding: 12px 24px; /* отступы */
+    text-align: center; /* выравнивание по центру */
+    text-decoration: none; /* удалить подчеркивание */
+    display: inline-block; /* установить как блочный элемент */
+    font-size: 16px; /* размер шрифта */
+    margin: 20px 0; /* отступы сверху и снизу */
+    cursor: pointer; /* изменить курсор на указатель */
+    border-radius: 5px; /* скруглить углы */
+  }
+  
+  button:hover {
+    opacity: 0.8; /* изменить непрозрачность при наведении */
+  }
+  
